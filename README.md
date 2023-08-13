@@ -38,6 +38,6 @@ We welcome contributions to the Restaurant Management App! If you would like to 
 This project is licensed under the MIT License. -->
 
 ### Contact
-If you have any questions, suggestions, or issues, please feel free to contact us at Ujjw4l.singh@gmail.com or open an issue in the repository. We appreciate your feedback and contributions!
+If you have any questions, suggestions, or issues, please feel free to contact us at jsingh15_be20@thapar.edu or open an issue in the repository. We appreciate your feedback and contributions!
 
 Thank you for using the Restaurant Management App!
