@@ -1,0 +1,46 @@
+.restaurant-card {
+  margin: auto;
+  padding: 10px 40px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+}
+
+.restaurant-card a {
+  color: black;
+  text-decoration: none;
+}
+
+.restaurant-card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.restaurant-card-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.restaurant-card-info p {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.restaurant-type-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.restaurant-type-icon img {
+  font-size: 1.5rem;
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+}

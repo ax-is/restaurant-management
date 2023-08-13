@@ -1,0 +1,105 @@
+.add-item-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.add-item-main h1 {
+  text-align: center;
+}
+
+.add-item-main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.add-item-form {
+  min-width: max-content;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-item-form label {
+  margin-top: 10px;
+}
+
+.add-item-form select,
+.add-item-form input,
+.add-item-form textarea {
+  margin: auto;
+  display: block;
+  height: 40px;
+  width: 90%;
+  background-color: #5c9ead2d;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  min-width: 90%;
+  max-width: 380px;
+}
+
+.add-item-form .itemDescription {
+  padding: 10px;
+  min-height: 20px;
+}
+
+.add-item-buttons {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-item-form button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #5C9EAD;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.add-item-form button:hover {
+  background-color: #326273;
+}
+
+.add-item-form button:active {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.add-item-form .cancel-button {
+  background-color: #f44336;
+  margin-left: 10px;
+}
+
+.add-item-form .cancel-button:hover {
+  background-color: #d32f2f;
+}
+
+.add-item-form select {
+  width: 95%;
+}
+
+@media only screen and (max-width: 540px) {
+  .add-item-form {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .add-item-form {
+    width: 290px;
+  }
+}

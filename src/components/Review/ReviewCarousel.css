@@ -1,0 +1,52 @@
+.review-main{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.review-main h1{
+    font-size: 36px;
+}
+.review-carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    row-gap: 50px;
+    position: relative;
+}
+
+.review {
+    width: 100%;
+    padding-top: 20px;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.review.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.star {
+    font-size: 0.8rem;
+    color: gainsboro;
+}
+
+.star.filled {
+    color: #ffcc00;
+}
+
+.review-text {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #333;
+}

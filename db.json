@@ -1,0 +1,48 @@
+{
+  "restaurants": [
+    {
+      "id": "r1",
+      "name": "Restaurant 1",
+      "staff": "s1"
+    },
+    {
+      "id": "r2",
+      "name": "Restaurant 2",
+      "staff": "s2"
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "name": "Item 1",
+      "restaurant" : "r1",
+      "description": "This is the description of item 1.",
+      "price": 70.99,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/A_formal_serving_of_wat_atop_injera_in_Brussels%2C_Belgium.jpg/330px-A_formal_serving_of_wat_atop_injera_in_Brussels%2C_Belgium.jpg"
+    },
+    {
+      "id": "i2",
+      "name": "Item 2",
+      "restaurant" : "r1",
+      "description": "This is the description of item 2.",
+      "price": 12.99,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/A_formal_serving_of_wat_atop_injera_in_Brussels%2C_Belgium.jpg/330px-A_formal_serving_of_wat_atop_injera_in_Brussels%2C_Belgium.jpg"
+    },
+    {
+      "id": "i3",
+      "name": "Item 3",
+      "restaurant" : "r2",
+      "description": "This is the description of item 3.",
+      "price": 15.99,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/A_formal_serving_of_wat_atop_injera_in_Brussels%2C_Belgium.jpg/330px-A_formal_serving_of_wat_atop_injera_in_Brussels%2C_Belgium.jpg"
+    },
+    {
+      "id": "i4",
+      "name": "Item 4",
+      "restaurant" : "r2",
+      "description": "This is the description of item 4.",
+      "price": 20.99,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/A_formal_serving_of_wat_atop_injera_in_Brussels%2C_Belgium.jpg/330px-A_formal_serving_of_wat_atop_injera_in_Brussels%2C_Belgium.jpg"
+    }
+  ]
+}

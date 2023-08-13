@@ -1,0 +1,70 @@
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: auto;
+    padding: 20px;
+    padding-right: 50px;
+    border-radius: 7px;
+    text-align: center;
+    z-index: 999;
+    transition: top 1s ease-in-out;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+
+.exclamation {
+    margin-right: 10px;
+}
+
+.alert.active {
+    top: 20px;
+}
+
+.alert.success {
+    color: green;
+}
+
+.alert.error {
+    color: #c0392b;
+}
+
+.alert-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.progress {
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    transition: width 2s linear;
+    border-radius: 7px;
+}
+.progress.success{
+    background-color: green;
+}
+.progress.error{
+    background-color: #c0392b;
+}
+.progress.active {
+    width: 0%;
+}

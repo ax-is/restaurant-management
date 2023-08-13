@@ -1,0 +1,50 @@
+.recipe-main {
+    background-color: white;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 0 2%;
+}
+
+.recipe-main img {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    animation: bounceAnimation 2s ease-in-out infinite;
+}
+
+.recipe-content {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.learn-more {
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: #326273;
+    border-radius: 7px;
+    outline: none;
+}
+
+.learn-more:hover {
+    cursor: pointer;
+    background-color: #41707a;
+}
+
+@keyframes bounceAnimation {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
