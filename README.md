@@ -1,4 +1,4 @@
-# Restaurant Management App
+# restaurant-manager-app
 
 Welcome to the repository for the Restaurant Management App! This application simplifies restaurant management, offering an intuitive interface for staff and customers.
 
